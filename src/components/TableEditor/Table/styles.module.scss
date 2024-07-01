@@ -1,0 +1,16 @@
+.table {
+  position: relative;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #000;
+}
+
+#tableName,
+#tableValue {
+  border: none;
+  color: black;
+}

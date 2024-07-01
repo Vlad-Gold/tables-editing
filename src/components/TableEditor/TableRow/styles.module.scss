@@ -1,0 +1,45 @@
+.edit {
+    position: relative;
+    width: 39%;
+  }
+  
+  .edit > button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.6em;
+    font-weight: bold;
+  }
+  
+  .edit > input {
+    all: unset;
+    color: rgb(33, 32, 32);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .arrowButtons {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .arrowButtons > button {
+    padding: 0.2em 0.8em;
+    text-align: center;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    right: -46%;
+    top: 27%;
+  }
+  

@@ -1,0 +1,30 @@
+.jsonAreaWrapper {
+    margin-top: 5%;
+    position: relative;
+  }
+  
+  .jsonArea {
+    width: 47em;
+    height: 20em;
+    margin: 3em;
+    background-color: rgb(49, 48, 48);
+  }
+  
+  .label {
+    position: absolute;
+    left: 6%;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .editingButtons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .editingButtons > button {
+    width: 23%;
+  }
+  
+  
